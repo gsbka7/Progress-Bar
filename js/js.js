@@ -59,7 +59,7 @@ function start() {
             countUp()
 
         }
-}) 
+    }) 
 }
 
 start()
