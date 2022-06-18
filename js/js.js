@@ -15,7 +15,7 @@ function countUp() {
         
         number.innerHTML = `${count}.${Math.floor(Math.random() * 99)}`
         
-        if(count > numberNum) {
+        if(count > numberNum - 1) {
 
             number.innerHTML = parseInt(numberNum)
 
