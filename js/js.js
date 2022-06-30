@@ -4,7 +4,7 @@ let numberNum = number.dataset.num
 
 let progressBar = document.querySelector('.progressBar')
 
-let speed = 20
+let speed = 10
 let count = 0
 
 function countUp() {
@@ -13,11 +13,11 @@ function countUp() {
 
         count++
         
-        number.innerHTML = `${count}.${Math.floor(Math.random() * 99)}`
+        number.innerHTML = `${count}.${Math.floor(Math.random() * 99)}%`
         
         if(count > numberNum - 1) {
 
-            number.innerHTML = parseInt(numberNum)
+            number.innerHTML = parseInt(numberNum) +'%'
 
             clearInterval(countData)
 
